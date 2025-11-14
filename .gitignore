@@ -1,0 +1,58 @@
+# === PlatformIO core ===
+.pio/
+.piolibdeps/
+.pioenvs/
+.pio\libdeps/
+.pio\build/
+.pio\test/
+.pio\packages/
+.pio\.cache/
+
+# === PlatformIO backup ===
+*.orig
+*.bak
+
+# === VSCode ===
+.vscode/
+*.code-workspace
+
+# === Firmware & Build outputs ===
+*.elf
+*.bin
+*.bin.*
+*.hex
+*.map
+*.out
+
+# === Serial logs / debug ===
+*.log
+*.trace
+*.dump
+
+# === Python cache (si usas extra scripts) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Configuración de claves / credenciales ===
+*.env
+.env.*
+secrets.json
+credentials.json
+wifi_config.json
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Arduino / ESP32 ===
+*.ino.cpp
+**/esp-idf/
+
+# === PlatformIO Test ===
+.test/
+
+# === Local tools / temporary ===
+*.swp
+*.swo
